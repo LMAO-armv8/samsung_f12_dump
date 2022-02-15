@@ -1,0 +1,223 @@
+[
+{
+	"DetectorTuningSetfile" : {
+		"Date" : "2020/03/06 00:00:00"
+	},
+	"ParametersBasedOnNI" : {
+		"noiseIndex_length" : 9,
+		"noiseIndex_values" : [
+			1.0,	10.0,	20.0,	40.0,	80.0,	160.0,	320.0,	640.0,	1024.0
+		],
+		"hue_max_sky" : [
+			167,	167,	167,	168,	169,	170,	171,	173,	175
+		],
+		"hue_min_sky" : [
+			148,	148,	147,	145,	144,	142,	140,	138,	133
+		],
+		"level_shift_h_sky" : [
+			0,		0,		0,		0,		0,		0,		0,		0,		0
+		],
+		"level_shift_s_sky" : [
+			0,		0,		0,		0,		0,		0,		0,		0,		0
+		],
+		"level_shift_v_sky" : [
+			0,		0,		0,		0,		0,		0,		0,		0,		0
+		],
+		"sat_max_sky" : [
+			225,	225,	225,	225,	225,	225,	225,	225,	225
+		],
+		"sat_min_sky" : [
+			81,	80,	77,	72,	67,	64,	58,	53,	45
+		],
+		"smooth_shift_h_sky" : [
+			5,		5,		5,		5,		5,		5,		5,		5,		5
+		],
+		"smooth_shift_s_sky" : [
+			7,		7,		7,		7,		7,		7,		7,		7,		7
+		],
+		"smooth_shift_v_sky" : [
+			6,		6,		6,		6,		6,		6,		6,		6,		6
+		],
+		"val_max_sky" : [
+			156,	156,	156,	156,	156,	156,	156,	156,	156
+		],
+		"val_min_sky" : [
+			28,	27,	26,	25,	23,	23,	21,	20,	18
+		],
+		"hue_max_grass" : [
+			75,	75,	75,	79,	86,	88,	91,	96,	103
+		],
+		"hue_min_grass" : [
+			47,	44,	44,	40,	37,	36,	35,	33,	31
+		],
+		"level_shift_h_grass" : [
+			0,		0,		0,		0,		0,		0,		0,		0,		0
+		],
+		"level_shift_s_grass" : [
+			0,		0,		0,		0,		0,		0,		0,		0,		0
+		],
+		"level_shift_v_grass" : [
+			0,		0,		0,		0,		0,		0,		0,		0,		0
+		],
+		"sat_max_grass" : [
+			250,	250,	250,	250,	250,	250,	250,	250,	250
+		],
+		"sat_min_grass" : [
+			74,	71,	71,	69,	66,	66,	65,	63,	59
+		],
+		"smooth_shift_h_grass" : [
+			5,		5,		5,		5,		5,		5,		5,		5,		5
+		],
+		"smooth_shift_s_grass" : [
+			7,		7,		7,		7,		7,		7,		7,		7,		7
+		],
+		"smooth_shift_v_grass" : [
+			6,		6,		6,		6,		6,		6,		6,		6,		6
+		],
+		"val_max_grass" : [
+			79,	81,	81,	83,	85,	86,	87,	90,	97
+		],
+		"val_min_grass" : [
+			9,	 8,	 8,	 8,	 7,	 7,	 6,	 6,	 5
+		]
+	},
+	"ParametersBasedOnNIAdnScenario" : {
+		"Scenario_length" : 5,
+		"single_capture" : {
+		    "noiseIndex_length" : 9,
+		    "noiseIndex_values" : [
+				1.0,	10.0,	20.0,	40.0,	80.0,	160.0,	320.0,	640.0,	1024.0
+		    ],
+			"map_area_th_sky" : [
+				50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000
+			],
+			"smooth_strength_sky" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_sky" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_sky" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			],
+			"detail_strength_grass" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_grass" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_grass" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			]
+		},
+		"remosaic_capture" : {
+		    "noiseIndex_length" : 9,
+		    "noiseIndex_values" : [
+				1.0,	10.0,	20.0,	40.0,	80.0,	160.0,	320.0,	640.0,	1024.0
+		    ],
+			"map_area_th_sky" : [
+				50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000
+			],
+			"smooth_strength_sky" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_sky" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_sky" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			],
+			"detail_strength_grass" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_grass" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_grass" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			]
+		},
+		"mfhdr_capture" : {
+		    "noiseIndex_length" : 9,
+		    "noiseIndex_values" : [
+				1.0,	10.0,	20.0,	40.0,	80.0,	160.0,	320.0,	640.0,	1024.0
+		    ],
+			"map_area_th_sky" : [
+				50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000
+			],
+			"smooth_strength_sky" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_sky" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_sky" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			],
+			"detail_strength_grass" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_grass" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_grass" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			]
+		},
+		"lls_capture" : {
+		    "noiseIndex_length" : 9,
+		    "noiseIndex_values" : [
+				1.0,	10.0,	20.0,	40.0,	80.0,	160.0,	320.0,	640.0,	1024.0
+		    ],
+			"map_area_th_sky" : [
+				50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000
+			],
+			"smooth_strength_sky" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_sky" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_sky" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			],
+			"detail_strength_grass" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_grass" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_grass" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			]
+		},
+		"bokeh_capture" : {
+		    "noiseIndex_length" : 9,
+		    "noiseIndex_values" : [
+				1.0,	10.0,	20.0,	40.0,	80.0,	160.0,	320.0,	640.0,	1024.0
+		    ],
+			"map_area_th_sky" : [
+				50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000,	50000
+			],
+			"smooth_strength_sky" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_sky" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_sky" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			],
+			"detail_strength_grass" : [
+				16,		16,		16,		16,		16,		16,		16,		16,		16
+			],
+			"edge_str_th_grass" : [
+				20,		20,		20,		20,		20,		20,		20,		20,		20
+			],
+			"mask_descent_shift_grass" : [
+				0,		0,		0,		0,		0,		0,		0,		0,		0
+			]
+		}
+	}
+}
+]
