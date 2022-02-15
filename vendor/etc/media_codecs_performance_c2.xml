@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<MediaCodecs>
+    <Decoders>
+        <MediaCodec name="c2.android.h263.decoder" type="video/3gpp" update="true">
+            <!-- measured 90%:261-267 med:261 N=2 -->
+            <Limit name="measured-frame-rate-176x144" range="425-427" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.avc.decoder" type="video/avc" update="true">
+            <!-- measured 90%:342-360 med:343 N=2 -->
+            <Limit name="measured-frame-rate-320x240" range="194-195" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:142-147 med:143 N=2 -->
+            <Limit name="measured-frame-rate-720x480" range="86-87" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:54-56 med:55 N=2 -->
+            <Limit name="measured-frame-rate-1280x720" range="40-41" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:25-26 med:26 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="18-19" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.hevc.decoder" type="video/hevc" update="true">
+            <!-- measured 90%:295-301 med:296 N=2 -->
+            <Limit name="measured-frame-rate-352x288" range="208-254" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:196-207 med:196 N=2 -->
+            <Limit name="measured-frame-rate-640x360" range="144-147" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:177-180 med:178 N=2 -->
+            <Limit name="measured-frame-rate-720x480" range="140-144" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:81-82 med:82 N=2 -->
+            <Limit name="measured-frame-rate-1280x720" range="71-72" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:45-47 med:46 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="42-42" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.mpeg4.decoder" type="video/mp4v-es" update="true">
+            <!-- measured 90%:292-294 med:293 N=2 -->
+            <Limit name="measured-frame-rate-176x144" range="429-460" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.vp8.decoder" type="video/x-vnd.on2.vp8" update="true">
+            <!-- measured 90%:287-290 med:288 N=2 -->
+            <Limit name="measured-frame-rate-320x180" range="371-371" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:131-133 med:131 N=2 -->
+            <Limit name="measured-frame-rate-640x360" range="139-140" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:13-14 med:13 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="13-14" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.vp9.decoder" type="video/x-vnd.on2.vp9" update="true">
+            <!-- measured 90%:251-255 med:252 N=2 -->
+            <Limit name="measured-frame-rate-320x180" range="311-318" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:129-138 med:130 N=2 -->
+            <Limit name="measured-frame-rate-640x360" range="161-163" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:72-73 med:72 N=2 -->
+            <Limit name="measured-frame-rate-1280x720" range="86-87" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:45-46 med:46 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="51-51" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+    </Decoders>
+
+    <Encoders>
+        <MediaCodec name="c2.android.h263.encoder" type="video/3gpp" update="true">
+            <!-- measured 90%:440-443 med:440 N=2 -->
+            <Limit name="measured-frame-rate-176x144" range="247-307" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.avc.encoder" type="video/avc" update="true">
+            <!-- measured 90%:198-203 med:199 N=2 -->
+            <Limit name="measured-frame-rate-320x240" range="198-200" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:101-104 med:102 N=2 -->
+            <Limit name="measured-frame-rate-720x480" range="101-103" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:66-68 med:66 N=2 -->
+            <Limit name="measured-frame-rate-1280x720" range="66-67" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:37-38 med:37 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="37-37" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.hevc.encoder" type="video/hevc" update="true">
+            <Limit name="measured-frame-rate-320x240" range="24-52" />
+            <!-- measured [42-43] lower-upper [11-115] median * 1.5 [64] -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.mpeg4.encoder" type="video/mp4v-es" update="true">
+            <!-- measured 90%:461-471 med:462 N=2 -->
+            <Limit name="measured-frame-rate-176x144" range="250-309" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+        <MediaCodec name="c2.android.vp8.encoder" type="video/x-vnd.on2.vp8" update="true">
+            <!-- measured 90%:79-80 med:79 N=2 -->
+            <Limit name="measured-frame-rate-320x180" range="79-79" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:41-43 med:42 N=2 -->
+            <Limit name="measured-frame-rate-640x360" range="41-42" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:21-22 med:21 N=2 -->
+            <Limit name="measured-frame-rate-1280x720" range="21-21" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:9-10 med:9 N=2 -->
+            <Limit name="measured-frame-rate-1920x1080" range="9-9" /> <!-- v90%=1.0 -->
+        </MediaCodec>
+    </Encoders>
+</MediaCodecs>
